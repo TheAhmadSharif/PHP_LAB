@@ -1,3 +1,4 @@
+
 <?php 
 	$connection = mysqli_connect("localhost", "root", "root", "Foo");
 	
@@ -20,9 +21,6 @@
 
 	mysqli_close($connection);
 	header( "refresh:1;url=index.php" );
-
-
-
 
 
 

@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>PHP</title>
+
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <style>
@@ -118,6 +119,7 @@
 	});
 });
 </script>
+
 
 
 </body>

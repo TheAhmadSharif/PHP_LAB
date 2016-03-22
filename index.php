@@ -101,22 +101,27 @@
 	
 	$(document).ready(function() {
 
-    $("#submitClick").click(function(event) {  
+   /* $("#submitClick").click(function(event) {  
 
        event.preventDefault();
 
-       $.post("index.php",
-		    {
-		        Id: "66",
-		        Name: "Duckburg"
-		    },
-		    function(data, status){
-		        console.log("Data: " + data + "\nStatus: " + status);
-		    });
+  
+        var dataString = 'NAME='+ 'Youu'
 
+          $.ajax({
+              type:"post",
+              url:"success.php",
+              data:dataString,
+              success:function(data){
+                 console.log('Hi');
+              },
+              error: function (data) {
+              		console.log('');
+              }
 
+          });
        
-	});
+	});*/
 });
 </script>
 

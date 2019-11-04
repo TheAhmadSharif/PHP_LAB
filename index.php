@@ -20,9 +20,9 @@
 	<div class="container">
 		<div class="row mtb-30">
 			<div class="col-md-12">
-				<h1>
+				<h2>
 					CRUD Application (PHP)
-				</h1>
+				</h2>
 				<form action="success.php" method="POST">
 					<div class="form-group">
 						<input type="text" name="NAME" placeholder="Name" autocomplete="off" class="form-control">

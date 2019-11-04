@@ -1,6 +1,6 @@
 
 <?php 
-	$connection = mysqli_connect("localhost", "root", "root", "Foo");
+	$connection = mysqli_connect("localhost", "root", "password", "Foo");
 	
 
 	if ($connection === false) {

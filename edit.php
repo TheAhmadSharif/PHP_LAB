@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>PHP</title>
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 <style>
 	.form-control:focus,.form-control:active {
 		outline: 0 important;

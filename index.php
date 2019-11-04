@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 <title>PHP</title>
 
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap4.css">
 <style>
 	.form-control:focus,.form-control:active {
 		outline: 0 important;
@@ -95,37 +94,6 @@
 			</div> <!-- End  -->
 		</div> <!-- End Row -->
 	</div> <!-- End Conatiner -->
-
-
-<script>
-	
-	$(document).ready(function() {
-
-   /* $("#submitClick").click(function(event) {  
-
-       event.preventDefault();
-
-  
-        var dataString = 'NAME='+ 'Youu'
-
-          $.ajax({
-              type:"post",
-              url:"success.php",
-              data:dataString,
-              success:function(data){
-                 console.log('Hi');
-              },
-              error: function (data) {
-              		console.log('');
-              }
-
-          });
-       
-	});*/
-});
-</script>
-
-
 
 </body>
 </html>

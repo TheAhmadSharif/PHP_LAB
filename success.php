@@ -9,10 +9,13 @@
 
 	$Name = $_POST['NAME'];
 
-	$sql = "INSERT INTO User(Id, Name) VALUES ('', '$Name')";
+
+
+
+	$sql = "INSERT INTO User(Name) VALUES ('$Name')";
 
 	if (mysqli_query($connection, $sql)) {
-		echo "Added Successfully";
+		echo $Name . " Added Successfully";
 	}
 	else 
 	{
